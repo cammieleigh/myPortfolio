@@ -1,0 +1,17 @@
+{
+    "projects":[
+        {
+            "id": "1",
+            "name": "Chamber of Commerce Site",
+            "image": "images/chamberExample.jpg",
+            "description": "This is an example Chamber of Commerce site that I created to explore CSS, HTML, and Javascript. It was created mobile first, and also includes lazy loading on the discover page.",
+            "link": "https://cammieleigh.github.io/wdd230/chamber/"
+        },
+        {   
+            "id": "2",
+            "name": "test",
+            "image": "images/profilePic.jpg"
+        }
+
+    ]
+}

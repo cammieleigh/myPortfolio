@@ -5,24 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="scripts/main.js"></script>
+    
+    <script defer src="main.js"></script>
     <title>Document</title>
 </head>
 
 <body id="homeBody">
-
-    <nav>
+    <header class="header">
+    <button class="header__btn"><img src='images/hamburger.png'></button>
+    <nav class="header__menu">
         <a href="myWork.html">My Work</a>
         <a href="about.html">About Me</a>
         <a href="contact.html">Contact</a>
     </nav>
-    <div id="imgContainer">
-        <img id="homeImg" src="images/profilePic.jpg" alt="Profile Picture">
-    </div>
-        <p id="name" >CAMMIE LEE</p>
-    
-    
+</header>
+<main>
+    <section class="intro">
+        <div class="intro__text">
+        <h2 class="intro__name">Cammie Lee</h2>
+    <p class="intro__statement">All-in-one full-stack developer and web designer </p>
+</div>
+<img class="intro__image" src="images/strawberry.jpg" alt="Profile Picture">
+    </section>
 
+<article class="interests">
+    <h2 class="interests__title">My Loves</h2>
+ <div class="interests__examples">
+    <section class="interests__card">
+        <img class="interests__image" src="images/codeExample.JPG" alt="Screenshot of HTML of home page">
+        <h3 class="interests__name">Coding</h3>
+    </section>
+    <section class="interests__card">
+        <img class="interests__image">
+        <h3 class="interests__name">Design</h3>
+    </section>
+    <section class="interests__card">
+        <section class="colors ">
+            <div class="colors__block colors__color1">
+                <h4 class="colors__hex">#D6BBC0</h4>
+                <h4 class="colors__name">Tea Rose</h4>
+            </div>
+            <div class="colors__block colors__color2">
+                <h4 class="colors__hex">#FDE5E6</h4>
+                <h4 class="colors__name">Misty Rose</h4>
+            </div>
+            <div class="colors__block colors__color3">
+                <h4 class="colors__hex">#577D3D</h4>
+                <h4 class="colors__name">Fern</h4>
+            </div>
+            <div class="colors__block colors__color4">
+                <h4 class="colors__hex">#B7D778</h4>
+                <h4 class="colors__name">Pistachio</h4>
+            </div>
+        </section>
+        <h3 class="interests__name">Color</h3>
+    </section>
+</div>
+</article>
+
+<section class="invitation">
+    <h2 class="invitation__title">Check out my work!</h2>
+</section>
+
+    
+</main>
+        
 </body>
 </html> 
 

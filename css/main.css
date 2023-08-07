@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Cutive+Mono&family=Italiana&family=Josefin+Slab:ital,wght@0,300;1,500&family=Montserrat:wght@200&family=Shrikhand&display=swap");
+@font-face {
+  font-family: "Monkeg";
+  src: url(monkegregular-webfont.woff2);
+}
+html {
+  width: 100vw;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #C8E987;
+  width: 100vw;
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  font-family: "Italiana", sans-serif;
+  font-size: 1.2em;
+  position: sticky;
+  top: 0px;
+  background-color: transparent;
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__btn {
+  display: none;
+}
+.header__menu {
+  width: 60vw;
+  padding: 20px;
+  background-color: #577D3D;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 10px;
+}
+
+a {
+  text-decoration: none;
+  border: solid 1px white;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+}
+a:hover {
+  color: #16200F;
+  background-color: white;
+}
+@keyframes expand {}
+a:visited {
+  color: white;
+}
+
+.intro {
+  width: 90vw;
+  background-color: #C8E987;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.intro__image {
+  width: 400px;
+  height: auto;
+}
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  margin-top: -100px;
+}
+.intro__name {
+  font-family: "Italiana", sans-serif;
+  font-size: 7vw;
+  color: #16200F;
+  margin-bottom: -30px;
+}
+.intro__statement {
+  font-family: "Josefin slab", sans-serif;
+  font-weight: 200;
+}
+
+.interests {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.interests__title {
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+  font-size: 5vw;
+  font-style: italic;
+}
+.interests__examples {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  justify-content: space-between;
+}
+.interests__image {
+  width: 250px;
+  height: auto;
+}
+.interests__name {
+  font-family: "Josefin slab", sans-serif;
+  font-weight: 200;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.colors {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+.colors__block {
+  width: 115px;
+  height: 115px;
+  font-family: "Josefin slab", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 20px;
+}
+.colors__color1 {
+  background-color: #FDE5E6;
+  color: #16200F;
+}
+.colors__color2 {
+  background-color: #D6BBC0;
+  color: #16200F;
+}
+.colors__color3 {
+  background-color: #577D3D;
+  color: white;
+}
+.colors__color4 {
+  background-color: #C8E987;
+  color: #16200F;
+}
+
+.invitation {
+  height: 10vw;
+  width: 100vw;
+}
+.invitation__title {
+  font-family: "Italiana", sans-serif;
+}
+
+.projectsBody {
+  background-color: white;
+}
+
+.workTitle {
+  font-family: "Italiana", sans-serif;
+  text-align: center;
+}
+
+.projectsWheel {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 65vw;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 75px;
+  display: none;
+}
+.projects__name {
+  font-family: "Italiana", sans-serif;
+  text-align: center;
+}
+.projects__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: solid 3px #C8E987;
+  text-align: center;
+}
+.projects__image::after {
+  content: "hello";
+}
+
+.active {
+  display: block;
+}
+
+.leftButton {
+  height: 50px;
+  width: 50px;
+}
+
+.rightButton {
+  height: 50px;
+  width: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

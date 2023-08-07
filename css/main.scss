@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Cutive+Mono&family=Italiana&family=Josefin+Slab:ital,wght@0,300;1,500&family=Montserrat:wght@200&family=Shrikhand&display=swap');
+@font-face {
+    font-family: 'Monkeg';
+    src: url(monkegregular-webfont.woff2);
+  }
+
+$body-font:  'Josefin slab', sans-serif;
+$header-font: 'Italiana', sans-serif;
+$main-color: #C8E987;
+$main-dark: #577D3D;
+$secondary-light: #FDE5E6;
+$secondary-dark: #D6BBC0;
+$main-text-color: #16200F;
+
+
+html{
+    width: 100vw;
+}
+body{
+    margin: 0 auto;
+    background-color: $main-color;
+    width: 100vw;
+}
+
+.hide{
+    display: none;
+}
+
+  .header{
+    font-family: $header-font;
+    font-size: 1.2em;
+    position: sticky;
+    top: 0px;
+    background-color: transparent;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__btn{
+        display: none;
+    }
+
+    &__menu{
+        width: 60vw;
+        padding: 20px;
+        background-color: $main-dark;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        
+        position: sticky;
+        top: 10px;
+    }
+  }
+
+  a{
+    text-decoration: none;
+    border: solid 1px white;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+
+    &:hover{
+        color: $main-text-color;
+        background-color: white;
+    }
+    @keyframes expand{
+        
+    }
+        &:visited{
+            color: white;
+        }
+  }
+//home page
+.intro{
+    width: 90vw;
+    background-color: $main-color;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__image{
+        width: 400px;
+        height: auto;
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5em;
+        margin-top: -100px;
+        
+    }
+    &__name{
+        font-family: $header-font;
+        // font-weight: 300;
+        // font-style: italic;
+        font-size: 7vw;
+        color: $main-text-color;
+        margin-bottom: -30px;
+    }
+    &__statement{
+        font-family: $body-font;
+        font-weight: 200;
+    }
+}
+
+.interests{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &__title{
+        text-align: center;
+        font-family: $header-font;
+        font-size: 5vw;
+        font-style: italic;
+    }
+    &__examples{
+        display: flex;
+        flex-direction: row;
+        width: 60vw;
+        justify-content: space-between;
+    }
+    &__image{
+        width: 250px;
+        height: auto;
+    }
+    &__name{
+        font-family:  $body-font;
+        font-weight: 200;
+        font-size: 1.75em;
+        text-align: center;
+    }
+}
+
+.colors{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    &__block{
+        width: 115px;
+        height: 115px;
+        font-family: $body-font;
+        font-weight: 200;
+        font-size: 1.2em;
+        text-align: center;
+        border-radius: 20px;
+    }
+    &__color1{
+        background-color: $secondary-light;
+        color: $main-text-color;
+    }
+    &__color2{
+        background-color: $secondary-dark;
+        color: $main-text-color;
+    }
+    &__color3{
+        background-color: $main-dark;
+        color: white;
+    }
+    &__color4{
+        background-color: $main-color;
+        color: $main-text-color;
+    }
+}
+
+.invitation{
+// background-image: url('../images/background1.png');
+// background-repeat: none;
+height: 10vw;
+width: 100vw;
+    &__title{
+        font-family: $header-font;
+    }
+}
+
+//projects page
+
+
+.projectsBody{
+    background-color: white
+}
+
+.workTitle{
+    font-family: $header-font;
+    text-align: center;
+}
+
+.projectsWheel{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 65vw;
+}
+.projects{
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    margin-top: 75px;
+    display: none;
+    &__name{
+        font-family: $header-font;
+        text-align: center;
+    }
+    &__image{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: solid 3px $main-color;
+        text-align: center;
+        &::after{
+            content: "hello"; 
+            
+        }
+    }
+
+}
+
+.active{
+    display: block;
+}
+
+.leftButton{
+    height: 50px; 
+    width: 50px;
+   
+}
+
+.rightButton{
+    height: 50px; 
+    width: 50px;
+   
+}
